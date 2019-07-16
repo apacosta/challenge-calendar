@@ -12,6 +12,10 @@ In the project directory, you can run:
 
 `yarn start` or `npm start`
 
+###considered upgrades
+Don't allow user to select a day previous of the current day.
+Better styling organization
+
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 

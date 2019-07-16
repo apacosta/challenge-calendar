@@ -35,7 +35,12 @@ const reminderForm = props => {
         <option value="Buenos Aires">Buenos Aires</option>
         <option value="Bogota">Bogota</option>
         <option value="London">London</option>
-        <option value="Tokyo">Tokyo</option>
+        <option value="Beijing">Beijing</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Shanghai">Shanghai</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Paris">Paris</option>
       </select>
 
       <label>Weather: </label>
