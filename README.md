@@ -16,7 +16,8 @@ In the project directory, you can run:
 
 `yarn jest`
 
-###considered upgrades
+### Considered upgrades
+
 Don't allow user to select a day previous of the current day.
 Better styling organization
 
