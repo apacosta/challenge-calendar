@@ -1,9 +1,9 @@
 import React from "react";
-import HeaderMonth from "../../components/Month";
-import HeaderWeekDays from "../../components/Week";
-import Day from "../../components/Day";
+import HeaderMonth from "../../components/Month/Month";
+import HeaderWeek from "../../components/Week/Week";
+import Day from "../../components/Day/Day";
 import moment from "moment";
-import "./index.css";
+import "./Month.css";
 
 export default class Month extends React.Component {
   state = {
@@ -103,7 +103,7 @@ export default class Month extends React.Component {
           nextMonth={this.state.nextMonth}
           prevMonth={this.state.prevMonth}
         />
-        <HeaderWeekDays days={weekdays} />
+        <HeaderWeek days={weekdays} />
         <section className="days">{days}</section>
       </div>
     );

@@ -4,7 +4,7 @@ import ColorPicker from "rc-color-picker";
 import moment from "moment";
 import "rc-time-picker/assets/index.css";
 import "rc-color-picker/assets/index.css";
-import "./index.css";
+import "./Form.css";
 
 const reminderForm = props => {
   const time = props.reminder.time
@@ -20,7 +20,7 @@ const reminderForm = props => {
     >
       <textarea
         className="description"
-        placeholder="enter event description..."
+        placeholder="Enter event description..."
         maxLength="30"
         defaultValue={props.reminder.description}
       />
@@ -45,16 +45,17 @@ const reminderForm = props => {
 
       <label>Weather: </label>
       <label>{props.reminder.temperature}</label>
+      <div>
+        <TimePicker
+          showSecond={false}
+          defaultValue={time}
+          format="h:mm a"
+          use12Hours
+          inputReadOnly
+        />
+      </div>
 
-      <TimePicker
-        showSecond={false}
-        defaultValue={time}
-        format="h:mm a"
-        use12Hours
-        inputReadOnly
-      />
-
-      <span>Reminder color:</span>
+      <label>Reminder color:</label>
       <ColorPicker
         className="color-picker"
         animation="slide-up"

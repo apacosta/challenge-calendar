@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./Reminder.css";
 
 const reminder = props => (
   <article className="reminder" style={{ background: props.reminder.color }}>

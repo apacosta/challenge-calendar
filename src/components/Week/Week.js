@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
+import "./Week.css";
 
-const headerWeekDays = props => (
+const headerWeek = props => (
   <header className="weekdays">
     {props.days.map((weekday, i) => (
       <strong key={i}>{weekday}</strong>
@@ -9,4 +9,4 @@ const headerWeekDays = props => (
   </header>
 );
 
-export default headerWeekDays;
+export default headerWeek;

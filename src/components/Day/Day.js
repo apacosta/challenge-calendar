@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
 import * as actions from "../../store/actions";
-import ReminderForm from "./Form";
-import Reminder from "./Reminder";
+import ReminderForm from "./Form/Form";
+import Reminder from "./Reminder/Reminder";
 import _sortBy from "lodash/sortBy";
-import "./index.css";
+import "./Day.css";
 const Api_Key = "93cf8d15297616f3d95801befab99161";
 
 const defaultColor = "#000";

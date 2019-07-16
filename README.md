@@ -12,6 +12,10 @@ In the project directory, you can run:
 
 `yarn start` or `npm start`
 
+#### Run tests
+
+`yarn jest`
+
 ###considered upgrades
 Don't allow user to select a day previous of the current day.
 Better styling organization
